@@ -78,6 +78,9 @@ const Description = styled.div`
 const Text = styled.p`
   color: white;
   margin: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 `;
 
 const Date = styled.p`
